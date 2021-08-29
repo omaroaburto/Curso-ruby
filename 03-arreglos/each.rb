@@ -9,7 +9,7 @@ end
 
 puts "El resultado de la sumatoria es #{sumatoria}"
 
-#versión índice
+#each con índice
 sumatoria = 0
 numeros.each_with_index do |num, pos|
     puts "#{sumatoria+=num} posición #{pos}"
